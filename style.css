@@ -1,3 +1,33 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.book img {
+  width: 350px;
+  height: 350px;
+  margin: -120px 0 0 0;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  font-weight: 900;
+  font-size: 30px;
+  list-style: none;
+  margin: -150px 0 0 0;
+  color: brown;
+}
+button {
+  background-color: brown;
+  color: deeppink;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  margin: -150px 0 0 0;
+  box-shadow: 12px;
+}
 .slide-7 {
   background: linear-gradient(to bottom, #fffaf4, #fff);
   padding: 60px 40px;
@@ -9,7 +39,7 @@
   position: absolute;
   left: 0;
   top: 30px;
-  margin: -100px  1000px 0 -50px;
+  margin: -100px 1000px 0 -50px;
 }
 
 .slide7-img-right {
@@ -18,7 +48,6 @@
   top: 0px;
   margin: -100px 0 0 0;
   padding: -100px -100px 0 -100px;
-
 }
 
 .slide7-content {
@@ -27,7 +56,6 @@
   flex-wrap: wrap;
   gap: 40px;
 }
-
 
 .slide7-contact {
   max-width: 500px;
