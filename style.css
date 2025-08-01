@@ -1,0 +1,101 @@
+.slide-7 {
+  background: linear-gradient(to bottom, #fffaf4, #fff);
+  padding: 60px 40px;
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+
+.slide7-img-left {
+  position: absolute;
+  left: 0;
+  top: 30px;
+  margin: -100px  1000px 0 -50px;
+}
+
+.slide7-img-right {
+  position: absolute;
+  right: 0;
+  top: 0px;
+  margin: -100px 0 0 0;
+  padding: -100px -100px 0 -100px;
+
+}
+
+.slide7-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+
+.slide7-contact {
+  max-width: 500px;
+}
+
+.slide7-contact .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.slide7-contact .logo img {
+  width: 120px;
+  padding: 0 0 0 30px;
+}
+
+.contact-info div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-info img {
+  width: 16px;
+}
+
+.slide7-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 0 0 0 200px;
+}
+
+.slide7-column {
+  min-width: 120px;
+}
+
+.slide7-column h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.slide7-column p {
+  font-size: 14px;
+  margin: 6px 0;
+  color: #222;
+}
+
+.slide7-column p u {
+  cursor: pointer;
+  color: black;
+  text-decoration: underline;
+}
+
+.slide7-footer {
+  text-align: center;
+  font-size: 13px;
+  color: #555;
+  margin-top: 60px;
+}
+
+.slide7-footer img {
+  width: 14px;
+  vertical-align: middle;
+  margin: 0 5px;
+}
